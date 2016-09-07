@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FezHatDemo", "FezHatDemo\FezHatDemo.csproj", "{D3E71A3B-250A-44A3-8576-F63AEE775E77}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A2B4FB2-4FED-4EE1-AE98-8A4D14DAC700}"
+	ProjectSection(SolutionItems) = preProject
+		IoT Hands on Lab.pdf = IoT Hands on Lab.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
