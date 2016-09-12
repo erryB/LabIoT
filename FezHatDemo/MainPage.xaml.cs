@@ -39,7 +39,7 @@ namespace FezHatDemo
             
             //init device and shield
             TpmDevice mytpmdevice = new TpmDevice(0);
-            _deviceClient = DeviceClient.CreateFromConnectionString(mytpmdevice.GetConnectionString()); //SAS Token: 60 min
+            _deviceClient = DeviceClient.CreateFromConnectionString(mytpmdevice.GetConnectionString(86400)); //SAS Token: 24h
             initFezhat();
 
             //timer setup and start -> 1 msg every second
